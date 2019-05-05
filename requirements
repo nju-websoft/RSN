@@ -1,0 +1,5 @@
+numpy
+pandas
+scipy
+tensorflow-gpu=1.1
+jupyter
