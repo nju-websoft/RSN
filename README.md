@@ -27,7 +27,7 @@ Lingbing Guo, Zequn Sun, Wei Hu*. Learning to Exploit Long-term Relational Depen
 
 3. For RSN4KGC.ipynb, we adopt a matrix filter method for evaluation, which may use more than 64GB memory.
 
-4. For entity alignment, V1 denotes the normal datasets, and V2 denotes the dense ones. Please use first 10% data of <code> ref_ent_ids </code> for validation.
+4. For entity alignment, V1 denotes the normal datasets, and V2 denotes the dense ones. Please use first 10% data of <code> ref_ent_ids</code> for validation.
 
 ## CITATION
 
