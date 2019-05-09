@@ -1,17 +1,18 @@
 ## RSN
-Lingbing Guo, Zequn Sun, Wei Hu. Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs. ICML2019
+
+Lingbing Guo, Zequn Sun, Wei Hu*. Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs. In: _ICML_ 2019
 
 ## INSTALLATION
 
-1. Please install Python 3.5+ first, and then unpack data.7z.
+1. Please first install Python 3.5+, and then unpack data.7z.
 
-2. Type <code> pip install -r requirements </code> in shell to install required packages. Note that, when using Tensorflow 1.2+, the learning rate has to be readjusted. We suggest using tensorflow-gpu=1.1.
+2. Type <code> pip install -r requirements </code> in shell to install required packages. Note that, when using Tensorflow 1.2+, the learning rate has to be re-adjusted. We suggest using tensorflow-gpu = 1.1.
 
 ## RUNNING
 
 1. Run jupyter by typing <code> jupyter notebook </code> in shell.
 
-2. In the opened browser, click RSN4EA.ipynb for EA, RSN4KGC.ipynb for KG completion.
+2. In the opened browser, click RSN4EA.ipynb for entity alignment, or RSN4KGC.ipynb for KG completion.
 
 3. The files RSN4EA.ipynb and RSN4KGC.ipynb record the latest results on DBP-WD (normal) and FB15K, respectively.
 
@@ -20,23 +21,23 @@ Lingbing Guo, Zequn Sun, Wei Hu. Learning to Exploit Long-term Relational Depend
 
 ## DATA
 
-1. Limited by the space, we only uploaded FB15K for KG completion. For WN18, FB15K-237, you can easily download from the Internet.
+1. Limited by the space, we only uploaded FB15K for KG completion. For WN18 and FB15K-237, you can easily download them from the Internet.
 
 2. Change options.data_path or other options.* to run RSN on different datasets with different settings.
 
-3. For RSN4KGC.ipynb, we adopt a matrix filter method for evaluation, which may use more than 64 GB memories.
+3. For RSN4KGC.ipynb, we adopt a matrix filter method for evaluation, which may use more than 64GB memory.
 
-4. For EA datasets, V1 denotes the normal ones, V2 denotes the dense ones. Please use first 10% data of <code> ref_ent_ids </code> for validation.
+4. For entity alignment, V1 denotes the normal datasets, and V2 denotes the dense ones. Please use first 10% data of <code> ref_ent_ids </code> for validation.
 
 ## CITATION
 
-If you found our work useful, please cite us as follows:
+If you find our work useful, please cite it as follows:
 
 ```
 @inproceedings{RSN,
 	Author = {Lingbing Guo, Zequn Sun, Wei Hu},
 	Booktitle = {ICML 2019},
 	Title = {Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs},
-	Year = {2019},
+	Year = {2019}
 }
 ```
