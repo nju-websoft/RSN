@@ -6,11 +6,11 @@ Lingbing Guo, Zequn Sun, Wei Hu*. Learning to Exploit Long-term Relational Depen
 
 1. Please first install Python 3.5+, and then unpack data.7z.
 
-2. Type <code> pip install -r requirements </code> in shell to install required packages. Note that, when using Tensorflow 1.2+, the learning rate has to be re-adjusted. We suggest using tensorflow-gpu = 1.1.
+2. Type <code>pip install -r requirements</code> in shell to install required packages. Note that, when using Tensorflow 1.2+, the learning rate has to be re-adjusted. We suggest using tensorflow-gpu = 1.1.
 
 ## RUNNING
 
-1. Run jupyter by typing <code> jupyter notebook </code> in shell.
+1. Run jupyter by typing <code>jupyter notebook</code> in shell.
 
 2. In the opened browser, click RSN4EA.ipynb for entity alignment, or RSN4KGC.ipynb for KG completion.
 
