@@ -1,6 +1,6 @@
 ## RSN
 
-Lingbing Guo, Zequn Sun, Wei Hu*. Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs. In: _ICML_ 2019
+Lingbing Guo, Zequn Sun, Wei Hu*. [Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs](https://arxiv.org/abs/1905.04914). In: _ICML_ 2019
 
 ## INSTALLATION
 
