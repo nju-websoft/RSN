@@ -29,6 +29,8 @@ Lingbing Guo, Zequn Sun, Wei Hu*. [Learning to Exploit Long-term Relational Depe
 
 4. For entity alignment, V1 denotes the normal datasets, and V2 denotes the dense ones. Please use first 10% data of <code> ref_ent_ids</code> for validation.
 
+5. entity-alignment-full-data.7z provides a complete version of the EA datasets, including attribute files and datasets with different proportions. 
+
 ## CITATION
 
 If you find our work useful, please cite it as follows:
