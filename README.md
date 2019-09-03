@@ -33,13 +33,14 @@ Lingbing Guo, Zequn Sun, Wei Hu*. [Learning to Exploit Long-term Relational Depe
 
 ## CITATION
 
-If you find our work useful, please cite it as follows:
+If you find our work useful, please kindly cite it as follows:
 
 ```
 @inproceedings{RSN,
-	Author = {Lingbing Guo and Zequn Sun and Wei Hu},
-	Booktitle = {ICML 2019},
-	Title = {Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs},
-	Year = {2019}
+  author    = {Lingbing Guo and Zequn Sun and Wei Hu},
+  title     = {Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs},
+  booktitle = {ICML},
+  pages     = {2505--2514},
+  year      = {2019}
 }
 ```
